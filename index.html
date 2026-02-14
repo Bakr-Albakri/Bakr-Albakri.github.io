@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-en="Bakr Albakri - Technology Enthusiast" data-ar="بكر البكري - شغوف بالتكنولوجيا">Bakr Albakri - Technology Enthusiast</title>
+  <link rel="icon" href="img/favicon.gif" type="image/gif">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Bree+Serif&family=Baumans&family=JetBrains+Mono:wght@200;300;400;500&family=Space+Grotesk:wght@300;400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Page Loader -->
+  <div class="page-loader">
+    <div class="loader-ring">
+      <div class="loader-ring-inner"></div>
+    </div>
+    <div class="loader-text"
+         data-en-html='<span class="loader-char">H</span><span class="loader-char">A</span><span class="loader-char">L</span><span class="loader-char">A</span>'
+         data-ar-html='<span class="loader-char">هلا</span><span class="loader-char">&nbsp;</span><span class="loader-char">والله</span>'>
+      <span class="loader-char">H</span><span class="loader-char">A</span><span class="loader-char">L</span><span class="loader-char">A</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-glow"></div>
+    <div class="header-datastream"></div>
+    <div class="header-inner">
+      <a href="#home" class="header-brand terminal-brand">
+        <span class="brand-prompt">>_</span>
+        <span class="brand-domain">bakralbakri<span class="brand-tld">.com</span></span>
+        <span class="brand-cursor"></span>
+      </a>
+      <div class="header-controls">
+        <span class="header-font-sizes">
+          <button class="font-size-btn" data-size="small" title="Small text" data-en-title="Small text" data-ar-title="نص صغير">A</button>
+          <button class="font-size-btn" data-size="medium" title="Medium text" data-en-title="Medium text" data-ar-title="نص متوسط">A</button>
+          <button class="font-size-btn active" data-size="large" title="Large text" data-en-title="Large text" data-ar-title="نص كبير">A</button>
+        </span>
+        <span class="header-controls-sep"></span>
+        <span class="brand-colors">
+          <label class="brand-color-dot dot-secondary"><input type="color" value="#6889ff" data-target="secondary"></label>
+          <label class="brand-color-dot dot-accent"><input type="color" value="#e4e4e7" data-target="accent"></label>
+        </span>
+        <span class="header-controls-sep"></span>
+        <span class="header-lang-switch">
+          <button class="lang-btn" data-lang="ar" title="عربي">ع</button>
+          <button class="lang-btn active" data-lang="en" title="English">EN</button>
+        </span>
+      </div>
+      <div class="header-center-block">
+        <div class="header-status">
+          <span class="status-dot"></span>
+          <span class="status-text" data-en="sys.status: online" data-ar="حالة.النظام: متصل">sys.status: online</span>
+        </div>
+        <div class="header-coords">
+          <span id="coord-lat">24.7136&deg;N</span>
+          <span class="coord-sep">/</span>
+          <span id="coord-lng">46.6753&deg;E</span>
+        </div>
+      </div>
+      <a href="CV.pdf" class="btn-download-cv">
+        <span class="cv-icon-wrap"><i class="fas fa-download"></i></span>
+        <span class="cv-label" data-en="Download CV" data-ar="تحميل السيرة">Download CV</span>
+        <span class="cv-badge">PDF</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Fixed Social Sidebar -->
+  <div class="fixed-social">
+    <a href="https://www.linkedin.com/in/bakralbakri/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://stackoverflow.com/users/8008912/bakr-albakri" target="_blank" aria-label="Stack Overflow"><i class="fab fa-stack-overflow"></i></a>
+    <a href="https://github.com/Bakr-Albakri" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://www.freecodecamp.org/BakrAlbakri" target="_blank" aria-label="freeCodeCamp"><i class="fab fa-free-code-camp"></i></a>
+    <a href="https://www.hackerearth.com/@bakr" target="_blank" aria-label="HackerEarth">
+      <svg width="16" height="16" viewBox="0 0 512 512" fill="currentColor"><path d="M378.987 0H133.013C59.556 0 0 59.556 0 133.013v245.974C0 452.444 59.556 512 133.013 512h245.974C452.444 512 512 452.444 512 378.987V133.013C512 59.556 452.444 0 378.987 0zM181.167 415.593c0 5.06-4.103 9.163-9.163 9.163h-28.836c-5.06 0-9.163-4.103-9.163-9.163V256.235c0-5.06 4.103-9.163 9.163-9.163h28.836c5.06 0 9.163 4.103 9.163 9.163v159.358zm197.832-4.345c0 29.93-24.372 54.218-54.218 54.218-29.93 0-54.218-24.372-54.218-54.218V283.18c0-5.06 4.103-9.163 9.163-9.163h28.836c5.06 0 9.163 4.103 9.163 9.163v128.068c0 3.858 3.114 6.972 6.972 6.972 3.858 0 6.972-3.114 6.972-6.972V96.407c0-5.06 4.103-9.163 9.163-9.163h28.836c5.06 0 9.163 4.103 9.163 9.163v314.841h.168z"/></svg>
+    </a>
+  </div>
+
+  <!-- ============================== -->
+  <!-- SECTION: Home / Hero -->
+  <!-- ============================== -->
+  <section id="home" class="hero-section spa-section">
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="hero-gradient-orb hero-orb-1"></div>
+    <div class="hero-gradient-orb hero-orb-2"></div>
+    <div class="container">
+      <div class="hero-profile-image-wrap">
+        <img src="img/BakrAlbakri.png" alt="" class="hero-profile-image">
+      </div>
+      <div class="hero-grid">
+        <div class="hero-social-placeholder"></div>
+        <div class="hero-content">
+          <div class="hero-tag">
+            <span class="hero-tag-dot"></span>
+            <span data-en="Technology Enthusiast" data-ar="شغوف بالتكنولوجيا">Technology Enthusiast</span>
+          </div>
+          <h1 class="hero-title">
+            <span class="hero-line" data-en="Welcome," data-ar="أهلاً،">Welcome,</span>
+            <span class="hero-line" data-en-html="I'm <span class='hero-name-highlight'>Bakr Albakri</span>" data-ar-html="أنا <span class='hero-name-highlight'>بكر البكري</span>">I'm <span class="hero-name-highlight">Bakr Albakri</span></span>
+          </h1>
+          <div class="hero-divider"><span></span></div>
+          <p class="hero-desc" data-en="I have always been intrigued by the endless possibilities that technology brings. Feel free to explore my website to learn more about me, my qualifications, experiences, and achievements in the field. Thank you for visiting!" data-ar="لطالما أثارت اهتمامي الإمكانيات اللامحدودة التي توفرها التكنولوجيا. لا تتردد في استكشاف موقعي لمعرفة المزيد عني، ومؤهلاتي، وخبراتي، وإنجازاتي في هذا المجال. شكراً لزيارتك!">I have always been intrigued by the endless possibilities that technology brings. Feel free to explore my website to learn more about me, my qualifications, experiences, and achievements in the field. Thank you for visiting!</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn-hero-ghost" data-en="Get In Touch" data-ar="تواصل معي">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span data-en="Scroll" data-ar="مرر">Scroll</span>
+    </div>
+  </section>
+
+  <!-- ============================== -->
+  <!-- SECTION: About -->
+  <!-- ============================== -->
+  <section id="about" class="section spa-section section-about">
+    <div class="section-bg-pattern about-pattern"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">01</span>
+        <div class="section-label" data-en="Get To Know Me" data-ar="تعرّف عليّ">Get To Know Me</div>
+        <h2 data-en="About Me" data-ar="نبذة عني">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p data-en="In my academic and professional journey, I have enjoyed exploring various technologies and systems, with more focus on gaining a deep understanding of the ERP field and using my design and scripting skills to develop related innovative solutions." data-ar="في مسيرتي الأكاديمية والمهنية، استمتعت باستكشاف مختلف التقنيات والأنظمة، مع التركيز بشكل أكبر على اكتساب فهم عميق لمجال أنظمة تخطيط الموارد واستخدام مهاراتي في التصميم والبرمجة لتطوير حلول مبتكرة.">In my academic and professional journey, I have enjoyed exploring various technologies and systems, with more focus on gaining a deep understanding of the ERP field and using my design and scripting skills to develop related innovative solutions.</p>
+          <p data-en="I excel at breaking down complex tasks into manageable problems, with attention to detail and a commitment to continuous improvement and high-quality results." data-ar="أتميز بتحليل المهام المعقدة إلى مشكلات قابلة للإدارة، مع الاهتمام بالتفاصيل والالتزام بالتحسين المستمر وتحقيق نتائج عالية الجودة.">I excel at breaking down complex tasks into manageable problems, with attention to detail and a commitment to continuous improvement and high-quality results.</p>
+          <div class="about-skills-inline">
+            <span class="skill-pill">ERP (Dynamics 365)</span>
+            <span class="skill-pill">HCM &amp; Payroll</span>
+            <span class="skill-pill">Procurement</span>
+            <span class="skill-pill">SQL &amp; Analytics</span>
+            <span class="skill-pill">Power Platform</span>
+            <span class="skill-pill" data-en="Technical Writing" data-ar="الكتابة التقنية">Technical Writing</span>
+            <span class="skill-pill" data-en="UI/UX Design" data-ar="تصميم واجهات المستخدم">UI/UX Design</span>
+          </div>
+        </div>
+        <div>
+          <div class="personal-details glass-card">
+            <h4 data-en-html="<i class='fas fa-id-card'></i> Personal Details" data-ar-html="<i class='fas fa-id-card'></i> بيانات شخصية"><i class="fas fa-id-card"></i> Personal Details</h4>
+            <div class="detail-row">
+              <span class="label" data-en="Residence" data-ar="الإقامة">Residence</span>
+              <span class="value" data-en="Riyadh, Saudi Arabia" data-ar="الرياض، المملكة العربية السعودية">Riyadh, Saudi Arabia</span>
+            </div>
+            <div class="detail-row">
+              <span class="label" data-en="Email" data-ar="البريد الإلكتروني">Email</span>
+              <span class="value">mail@bakralbakri.com</span>
+            </div>
+          </div>
+          <div class="languages-section glass-card">
+            <h4 data-en-html="<i class='fas fa-globe'></i> Languages" data-ar-html="<i class='fas fa-globe'></i> اللغات"><i class="fas fa-globe"></i> Languages</h4>
+            <div class="detail-row">
+              <span class="label" data-en="Arabic" data-ar="العربية">Arabic</span>
+              <span class="value" data-en-html="<span class='lang-bar' style='--lang-pct:100%'></span> Native" data-ar-html="<span class='lang-bar' style='--lang-pct:100%'></span> اللغة الأم"><span class="lang-bar" style="--lang-pct:100%"></span> Native</span>
+            </div>
+            <div class="detail-row">
+              <span class="label" data-en="English" data-ar="الإنجليزية">English</span>
+              <span class="value" data-en-html="<span class='lang-bar' style='--lang-pct:90%'></span> Professional" data-ar-html="<span class='lang-bar' style='--lang-pct:90%'></span> احترافي"><span class="lang-bar" style="--lang-pct:90%"></span> Professional</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== -->
+  <!-- SECTION: Experience -->
+  <!-- ============================== -->
+  <section id="experience" class="section section-alt spa-section section-experience">
+    <div class="section-bg-pattern exp-pattern"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <div class="section-label" data-en="Career Path" data-ar="المسار المهني">Career Path</div>
+        <h2 data-en="Experience" data-ar="الخبرات">Experience</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot">
+            <div class="timeline-dot-pulse"></div>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date" data-en-html="<i class='far fa-calendar-alt'></i> 2021 - Present" data-ar-html="<i class='far fa-calendar-alt'></i> ٢٠٢١ - الحالي"><i class="far fa-calendar-alt"></i> 2021 - Present</span>
+            <h3 data-en="ERP Specialist" data-ar="أخصائي أنظمة تخطيط الموارد">ERP Specialist</h3>
+            <div class="company" data-en-html="<i class='far fa-building'></i> Saudi Research &amp; Media Group" data-ar-html="<i class='far fa-building'></i> المجموعة السعودية للأبحاث والإعلام"><i class="far fa-building"></i> Saudi Research &amp; Media Group</div>
+            <ul>
+              <li data-en="Developed system views and permissions via Personalization and Security tools" data-ar="تطوير عروض النظام والصلاحيات عبر أدوات التخصيص والأمان">Developed system views and permissions via Personalization and Security tools</li>
+              <li data-en="Managed HR workflows for employee self-service" data-ar="إدارة سير العمل في الموارد البشرية للخدمة الذاتية للموظفين">Managed HR workflows for employee self-service</li>
+              <li data-en="Designed instructional videos and graphical aids for end users" data-ar="تصميم فيديوهات تعليمية ووسائل بصرية للمستخدمين">Designed instructional videos and graphical aids for end users</li>
+              <li data-en="Employed SQL for data visualization per stakeholder needs" data-ar="استخدام SQL لتصوير البيانات وفقاً لاحتياجات أصحاب المصلحة">Employed SQL for data visualization per stakeholder needs</li>
+              <li data-en="Created workers archival system using X++" data-ar="إنشاء نظام أرشفة الموظفين باستخدام X++">Created workers archival system using X++</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot">
+            <div class="timeline-dot-pulse"></div>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date" data-en-html="<i class='far fa-calendar-alt'></i> 2019 - 2021" data-ar-html="<i class='far fa-calendar-alt'></i> ٢٠١٩ - ٢٠٢١"><i class="far fa-calendar-alt"></i> 2019 - 2021</span>
+            <h3 data-en="IT Systems Analyst &amp; Design" data-ar="محلل ومصمم أنظمة تقنية المعلومات">IT Systems Analyst &amp; Design</h3>
+            <div class="company" data-en-html="<i class='far fa-building'></i> Saudi Research &amp; Publishing Company" data-ar-html="<i class='far fa-building'></i> الشركة السعودية للأبحاث والنشر"><i class="far fa-building"></i> Saudi Research &amp; Publishing Company</div>
+            <ul>
+              <li data-en="Co-managed HCM project across multiple currencies and legal entities" data-ar="المشاركة في إدارة مشروع إدارة رأس المال البشري عبر عملات وكيانات قانونية متعددة">Co-managed HCM project across multiple currencies and legal entities</li>
+              <li data-en="Experienced with D365 HCM and payroll data structures" data-ar="خبرة في هياكل بيانات إدارة رأس المال البشري والرواتب في D365">Experienced with D365 HCM and payroll data structures</li>
+              <li data-en="Managed multi-legal entity org structure and financial dimensions" data-ar="إدارة الهيكل التنظيمي متعدد الكيانات القانونية والأبعاد المالية">Managed multi-legal entity org structure and financial dimensions</li>
+              <li data-en="Ensured HR operations and prepared audit reports" data-ar="ضمان عمليات الموارد البشرية وإعداد تقارير التدقيق">Ensured HR operations and prepared audit reports</li>
+              <li data-en="Designed customized solutions for Active Directory integration" data-ar="تصميم حلول مخصصة لتكامل Active Directory">Designed customized solutions for Active Directory integration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== -->
+  <!-- SECTION: Education -->
+  <!-- ============================== -->
+  <section id="education" class="section spa-section section-education">
+    <div class="section-bg-pattern edu-pattern"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">03</span>
+        <div class="section-label" data-en="Academic Background" data-ar="الخلفية الأكاديمية">Academic Background</div>
+        <h2 data-en="Education" data-ar="التعليم">Education</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card glass-card">
+          <div class="edu-card-accent"></div>
+          <span class="year" data-en-html="<i class='fas fa-graduation-cap'></i> 2017" data-ar-html="<i class='fas fa-graduation-cap'></i> ٢٠١٧"><i class="fas fa-graduation-cap"></i> 2017</span>
+          <h3 data-en="BA in Computer Science" data-ar="بكالوريوس في علوم الحاسب">BA in Computer Science</h3>
+          <div class="institution" data-en="University of St. Thomas, MN" data-ar="جامعة سانت توماس، مينيسوتا">University of St. Thomas, MN</div>
+          <div class="edu-meta" data-en="GPA 3.81/4.0 · Dean's List 2014-2017" data-ar="المعدل 3.81/4.0 · قائمة العميد ٢٠١٤-٢٠١٧">GPA 3.81/4.0 · Dean's List 2014-2017</div>
+          <div class="edu-badge" data-en="Magna Cum Laude" data-ar="بامتياز مع مرتبة الشرف">Magna Cum Laude</div>
+        </div>
+        <div class="edu-card glass-card">
+          <div class="edu-card-accent"></div>
+          <span class="year" data-en-html="<i class='fas fa-language'></i> 2013" data-ar-html="<i class='fas fa-language'></i> ٢٠١٣"><i class="fas fa-language"></i> 2013</span>
+          <h3 data-en="English Language Program" data-ar="برنامج اللغة الإنجليزية">English Language Program</h3>
+          <div class="institution" data-en="University of Minnesota, MN" data-ar="جامعة مينيسوتا، مينيسوتا">University of Minnesota, MN</div>
+          <div class="edu-meta">TOEFL 563 &middot; IELTS 7.0</div>
+          <div class="edu-badge">IELTS 7.0</div>
+        </div>
+      </div>
+      <div class="projects-divider-label" data-en="Notable Projects" data-ar="مشاريع بارزة">Notable Projects</div>
+      <div class="projects-grid">
+        <div class="project-card glass-card">
+          <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+          <div class="project-info">
+            <h4>Stockiratio</h4>
+            <p data-en="Stock monitoring system using Yahoo Finance API with portfolio management. Served as Scrum Master." data-ar="نظام مراقبة الأسهم باستخدام واجهة Yahoo Finance مع إدارة المحفظة. عملت كقائد فريق Scrum.">Stock monitoring system using Yahoo Finance API with portfolio management. Served as Scrum Master.</p>
+            <div class="project-tags">
+              <span>API</span><span>Mobile</span><span>Scrum</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card glass-card">
+          <div class="project-icon"><i class="fas fa-eye"></i></div>
+          <div class="project-info">
+            <h4>iSteer</h4>
+            <p data-en="Eye-movement detection via DAQ device, translating to voltage signals for steering wheel control." data-ar="كشف حركة العين عبر جهاز DAQ وتحويلها إلى إشارات جهد للتحكم بعجلة القيادة.">Eye-movement detection via DAQ device, translating to voltage signals for steering wheel control.</p>
+            <div class="project-tags">
+              <span>Hardware</span><span>DAQ</span><span>Innovation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== -->
+  <!-- SECTION: Skills -->
+  <!-- ============================== -->
+  <section id="skills" class="section section-alt spa-section section-skills">
+    <div class="section-bg-pattern skills-pattern"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">04</span>
+        <div class="section-label" data-en="What I Do" data-ar="ما أقوم به">What I Do</div>
+        <h2 data-en="Skills" data-ar="المهارات">Skills</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-card-icon"><i class="fas fa-cogs"></i></div>
+          <div class="skill-card-glow"></div>
+          <h4 data-en="Enterprise Resource Planning" data-ar="تخطيط موارد المؤسسة">Enterprise Resource Planning</h4>
+          <p data-en="D365 expertise across HCM, Payroll, and Procurement." data-ar="خبرة في D365 عبر إدارة رأس المال البشري والرواتب والمشتريات.">D365 expertise across HCM, Payroll, and Procurement.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-icon"><i class="fas fa-pen-fancy"></i></div>
+          <div class="skill-card-glow"></div>
+          <h4 data-en="Technical Writing" data-ar="الكتابة التقنية">Technical Writing</h4>
+          <p data-en="Clear communication of complex technical concepts." data-ar="إيصال واضح للمفاهيم التقنية المعقدة.">Clear communication of complex technical concepts.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-icon"><i class="fas fa-chart-bar"></i></div>
+          <div class="skill-card-glow"></div>
+          <h4 data-en="Data Analytics" data-ar="تحليل البيانات">Data Analytics</h4>
+          <p data-en="SQL-driven insights from large datasets and visualization." data-ar="رؤى مبنية على SQL من مجموعات بيانات كبيرة وتصويرها بصرياً.">SQL-driven insights from large datasets and visualization.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-icon"><i class="fas fa-palette"></i></div>
+          <div class="skill-card-glow"></div>
+          <h4 data-en="UI/UX Design" data-ar="تصميم واجهات المستخدم">UI/UX Design</h4>
+          <p data-en="Adobe Photoshop &amp; Illustrator for visual interfaces." data-ar="Adobe Photoshop و Illustrator لتصميم الواجهات البصرية.">Adobe Photoshop &amp; Illustrator for visual interfaces.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-icon"><i class="fas fa-bolt"></i></div>
+          <div class="skill-card-glow"></div>
+          <h4 data-en="Low-Code Dev" data-ar="التطوير بالأكواد المنخفضة">Low-Code Dev</h4>
+          <p data-en="Power Apps &amp; Automate for custom business solutions." data-ar="Power Apps و Automate لحلول الأعمال المخصصة.">Power Apps &amp; Automate for custom business solutions.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-icon"><i class="fas fa-code"></i></div>
+          <div class="skill-card-glow"></div>
+          <h4 data-en="Programming" data-ar="البرمجة">Programming</h4>
+          <p data-en="Custom solution development and system integration." data-ar="تطوير حلول مخصصة وتكامل الأنظمة.">Custom solution development and system integration.</p>
+        </div>
+      </div>
+
+      <div class="soft-skills-section">
+        <div class="soft-skills-list">
+          <span class="soft-skill-tag" data-en="Creativity" data-ar="الإبداع">Creativity</span>
+          <span class="soft-skill-tag" data-en="Time Management" data-ar="إدارة الوقت">Time Management</span>
+          <span class="soft-skill-tag" data-en="Multitasking" data-ar="تعدد المهام">Multitasking</span>
+          <span class="soft-skill-tag" data-en="Self-Directed" data-ar="التعلم الذاتي">Self-Directed</span>
+          <span class="soft-skill-tag" data-en="Collaboration" data-ar="العمل الجماعي">Collaboration</span>
+          <span class="soft-skill-tag" data-en="Attention to Detail" data-ar="الاهتمام بالتفاصيل">Attention to Detail</span>
+          <span class="soft-skill-tag" data-en="Problem Solving" data-ar="حل المشكلات">Problem Solving</span>
+          <span class="soft-skill-tag" data-en="Continuous Improvement" data-ar="التحسين المستمر">Continuous Improvement</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== -->
+  <!-- SECTION: Portfolio -->
+  <!-- ============================== -->
+  <section id="portfolio" class="section spa-section section-portfolio">
+    <div class="section-bg-pattern portfolio-pattern"></div>
+    <div class="container portfolio-container">
+      <div class="section-header portfolio-header">
+        <span class="section-number">05</span>
+        <div class="section-label" data-en="My Work" data-ar="أعمالي">My Work</div>
+        <h2 data-en="Portfolio" data-ar="معرض الأعمال">Portfolio</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="bento-grid">
+        <!-- Row 1: 3 columns — featured wide + 2 stacked -->
+        <a href="https://bakralbakri.com/conway/" target="_blank" class="bento-card bento-wide" data-tech="HTML & JS">
+          <div class="bento-bg"></div>
+          <div class="bento-icon"><i class="fas fa-th-large"></i></div>
+          <div class="bento-content">
+            <span class="bento-tech">HTML &amp; JavaScript</span>
+            <h4 data-en="Conway's Game of Life" data-ar="لعبة الحياة لكونواي">Conway's Game of Life</h4>
+            <p data-en="Interactive cellular automaton simulation" data-ar="محاكاة تفاعلية للأوتوماتا الخلوية">Interactive cellular automaton simulation</p>
+          </div>
+          <div class="bento-arrow"><i class="fas fa-arrow-right"></i></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=soZFmndEZu8" target="_blank" class="bento-card" data-tech="Java">
+          <div class="bento-bg"></div>
+          <div class="bento-icon"><i class="fas fa-play"></i></div>
+          <div class="bento-content">
+            <span class="bento-tech">Java</span>
+            <h4 data-en="Java Classes Tutorial" data-ar="دروس أصناف Java">Java Classes Tutorial</h4>
+          </div>
+          <div class="bento-arrow"><i class="fas fa-arrow-right"></i></div>
+        </a>
+        <a href="https://bakralbakri.com/vanilla-portfolio/index.html" target="_blank" class="bento-card" data-tech="Web">
+          <div class="bento-bg"></div>
+          <div class="bento-icon"><i class="fas fa-palette"></i></div>
+          <div class="bento-content">
+            <span class="bento-tech">HTML, CSS &amp; JS</span>
+            <h4 data-en="2016 Portfolio" data-ar="معرض أعمال ٢٠١٦">2016 Portfolio</h4>
+          </div>
+          <div class="bento-arrow"><i class="fas fa-arrow-right"></i></div>
+        </a>
+
+        <!-- Row 2: 3 columns — 2 stacked + featured wide -->
+        <a href="https://www.youtube.com/watch?v=NS3NZ01ofNA" target="_blank" class="bento-card" data-tech="Keynote">
+          <div class="bento-bg"></div>
+          <div class="bento-icon"><i class="fas fa-shield-alt"></i></div>
+          <div class="bento-content">
+            <span class="bento-tech">macOS Keynote</span>
+            <h4 data-en="Usable Security" data-ar="الأمان القابل للاستخدام">Usable Security</h4>
+          </div>
+          <div class="bento-arrow"><i class="fas fa-arrow-right"></i></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=D4iekx34-y8" target="_blank" class="bento-card" data-tech="Speech">
+          <div class="bento-bg"></div>
+          <div class="bento-icon"><i class="fas fa-microphone"></i></div>
+          <div class="bento-content">
+            <span class="bento-tech">Communication</span>
+            <h4 data-en="Persuasive Speech" data-ar="خطاب إقناعي">Persuasive Speech</h4>
+          </div>
+          <div class="bento-arrow"><i class="fas fa-arrow-right"></i></div>
+        </a>
+        <div class="bento-card bento-wide bento-no-link" data-tech="Design">
+          <div class="bento-bg"></div>
+          <div class="bento-icon"><i class="fas fa-image"></i></div>
+          <div class="bento-content">
+            <span class="bento-tech">Adobe Photoshop &amp; Premiere</span>
+            <h4 data-en="Saudi National Day Design" data-ar="تصميم اليوم الوطني السعودي">Saudi National Day Design</h4>
+            <p data-en="Creative design &amp; video production" data-ar="تصميم إبداعي وإنتاج فيديو">Creative design &amp; video production</p>
+          </div>
+        </div>
+
+        <!-- Row 3: single full-width -->
+        <a href="https://bakralbakri.com" target="_blank" class="bento-card bento-full" data-tech="WordPress">
+          <div class="bento-bg"></div>
+          <div class="bento-icon"><i class="fas fa-code"></i></div>
+          <div class="bento-content">
+            <span class="bento-tech">WordPress &amp; Elementor</span>
+            <h4 data-en="Personal Website" data-ar="الموقع الشخصي">Personal Website</h4>
+            <p data-en="This portfolio — designed and built with WordPress and Elementor" data-ar="هذا المعرض — مصمم ومبني باستخدام WordPress و Elementor">This portfolio — designed and built with WordPress and Elementor</p>
+          </div>
+          <div class="bento-arrow"><i class="fas fa-arrow-right"></i></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== -->
+  <!-- SECTION: Cover Letter -->
+  <!-- ============================== -->
+  <section id="cover-letter" class="section section-alt spa-section section-coverletter">
+    <div class="section-bg-pattern cover-pattern"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">06</span>
+        <div class="section-label" data-en="My Approach" data-ar="منهجي">My Approach</div>
+        <h2 data-en="Cover Letter" data-ar="الخطاب التعريفي">Cover Letter</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="cover-letter-content glass-card">
+        <div class="cover-quote-mark">&ldquo;</div>
+        <p data-en="In my professional journey, I have enjoyed exploring various technologies and systems, with more focus on gaining a deep understanding of the ERP field and using my design and scripting skills to develop innovative solutions." data-ar="في مسيرتي المهنية، استمتعت باستكشاف مختلف التقنيات والأنظمة، مع التركيز بشكل أكبر على اكتساب فهم عميق لمجال أنظمة تخطيط الموارد واستخدام مهاراتي في التصميم والبرمجة لتطوير حلول مبتكرة.">In my professional journey, I have enjoyed exploring various technologies and systems, with more focus on gaining a deep understanding of the ERP field and using my design and scripting skills to develop innovative solutions.</p>
+        <div class="competencies-grid">
+          <div class="competency-item" data-en-html="<i class='fas fa-check'></i> ERP Systems (D365)" data-ar-html="<i class='fas fa-check'></i> أنظمة ERP (D365)"><i class="fas fa-check"></i> ERP Systems (D365)</div>
+          <div class="competency-item" data-en-html="<i class='fas fa-check'></i> HCM &amp; Payroll" data-ar-html="<i class='fas fa-check'></i> إدارة رأس المال البشري والرواتب"><i class="fas fa-check"></i> HCM &amp; Payroll</div>
+          <div class="competency-item" data-en-html="<i class='fas fa-check'></i> Procurement &amp; SCM" data-ar-html="<i class='fas fa-check'></i> المشتريات وسلسلة الإمداد"><i class="fas fa-check"></i> Procurement &amp; SCM</div>
+          <div class="competency-item" data-en-html="<i class='fas fa-check'></i> Data Analytics &amp; SQL" data-ar-html="<i class='fas fa-check'></i> تحليل البيانات و SQL"><i class="fas fa-check"></i> Data Analytics &amp; SQL</div>
+          <div class="competency-item" data-en-html="<i class='fas fa-check'></i> Power Platform" data-ar-html="<i class='fas fa-check'></i> Power Platform"><i class="fas fa-check"></i> Power Platform</div>
+          <div class="competency-item" data-en-html="<i class='fas fa-check'></i> Technical Writing" data-ar-html="<i class='fas fa-check'></i> الكتابة التقنية"><i class="fas fa-check"></i> Technical Writing</div>
+          <div class="competency-item" data-en-html="<i class='fas fa-check'></i> UI/UX Design" data-ar-html="<i class='fas fa-check'></i> تصميم واجهات المستخدم"><i class="fas fa-check"></i> UI/UX Design</div>
+          <div class="competency-item" data-en-html="<i class='fas fa-check'></i> Programming" data-ar-html="<i class='fas fa-check'></i> البرمجة"><i class="fas fa-check"></i> Programming</div>
+        </div>
+        <p data-en="I'm always looking for new challenges and opportunities to grow. If you think I'd be a good fit for your team, I'd love to hear from you." data-ar="أبحث دائماً عن تحديات وفرص جديدة للنمو. إذا كنت تعتقد أنني سأكون إضافة جيدة لفريقك، يسعدني التواصل معك.">I'm always looking for new challenges and opportunities to grow. If you think I'd be a good fit for your team, I'd love to hear from you.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== -->
+  <!-- SECTION: Contact -->
+  <!-- ============================== -->
+  <section id="contact" class="section spa-section section-contact">
+    <div class="section-bg-pattern contact-pattern"></div>
+    <div class="container">
+      <div class="contact-main">
+        <div class="section-header">
+          <span class="section-number">07</span>
+          <div class="section-label" data-en="Let's Connect" data-ar="لنتواصل">Let's Connect</div>
+          <h2 data-en="Contact" data-ar="التواصل">Contact</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="contact-layout">
+          <div class="contact-text">
+            <p data-en="I'm always open to new opportunities, creative ideas, or potential collaborations." data-ar="أرحب دائماً بالفرص الجديدة والأفكار الإبداعية والتعاون المحتمل.">I'm always open to new opportunities, creative ideas, or potential collaborations.</p>
+            <a href="mailto:mail@bakralbakri.com" class="contact-email-btn">
+              <i class="fas fa-paper-plane"></i>
+              <span>mail@bakralbakri.com</span>
+            </a>
+          </div>
+          <div class="contact-links-grid">
+            <a href="https://www.linkedin.com/in/bakralbakri/" target="_blank" class="contact-card">
+              <i class="fab fa-linkedin-in"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://stackoverflow.com/users/8008912/bakr-albakri" target="_blank" class="contact-card">
+              <i class="fab fa-stack-overflow"></i>
+              <span>Stack Overflow</span>
+            </a>
+            <a href="https://github.com/Bakr-Albakri" target="_blank" class="contact-card">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.freecodecamp.org/BakrAlbakri" target="_blank" class="contact-card">
+              <i class="fab fa-free-code-camp"></i>
+              <span>freeCodeCamp</span>
+            </a>
+            <a href="https://www.hackerearth.com/@bakr" target="_blank" class="contact-card">
+              <i class="fas fa-code"></i>
+              <span>HackerEarth</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-footer">
+        <span data-en-html="&copy; <span id='copyright-year'></span> Bakr Albakri. All rights reserved." data-ar-html="&copy; <span id='copyright-year'></span> بكر البكري. جميع الحقوق محفوظة.">&copy; <span id="copyright-year"></span> Bakr Albakri. All rights reserved.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom Navigation Bar -->
+  <nav class="bottom-nav">
+    <a href="#home" class="bottom-nav-item active" data-section="home">
+      <i class="fas fa-home"></i>
+      <span data-en="Home" data-ar="الرئيسية">Home</span>
+    </a>
+    <a href="#about" class="bottom-nav-item" data-section="about">
+      <i class="fas fa-user"></i>
+      <span data-en="About" data-ar="نبذة">About</span>
+    </a>
+    <a href="#experience" class="bottom-nav-item" data-section="experience">
+      <i class="fas fa-briefcase"></i>
+      <span data-en="Experience" data-ar="الخبرات">Experience</span>
+    </a>
+    <a href="#education" class="bottom-nav-item" data-section="education">
+      <i class="fas fa-graduation-cap"></i>
+      <span data-en="Education" data-ar="التعليم">Education</span>
+    </a>
+    <a href="#skills" class="bottom-nav-item" data-section="skills">
+      <i class="fas fa-cogs"></i>
+      <span data-en="Skills" data-ar="المهارات">Skills</span>
+    </a>
+    <a href="#portfolio" class="bottom-nav-item" data-section="portfolio">
+      <i class="fas fa-th-large"></i>
+      <span data-en="Portfolio" data-ar="الأعمال">Portfolio</span>
+    </a>
+    <a href="#cover-letter" class="bottom-nav-item" data-section="cover-letter">
+      <i class="fas fa-file-alt"></i>
+      <span data-en="Cover" data-ar="الخطاب">Cover</span>
+    </a>
+    <a href="#contact" class="bottom-nav-item" data-section="contact">
+      <i class="fas fa-envelope"></i>
+      <span data-en="Contact" data-ar="التواصل">Contact</span>
+    </a>
+  </nav>
+
+  <!-- Scroll Nav Buttons -->
+  <div class="scroll-nav">
+    <button class="scroll-nav-btn scroll-up-btn" aria-label="Scroll up" data-en-aria="Scroll up" data-ar-aria="للأعلى">
+      <i class="fas fa-angle-up"></i>
+    </button>
+    <button class="scroll-nav-btn scroll-down-btn" aria-label="Scroll down" data-en-aria="Scroll down" data-ar-aria="للأسفل">
+      <i class="fas fa-angle-down"></i>
+    </button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
